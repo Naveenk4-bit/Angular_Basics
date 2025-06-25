@@ -1,0 +1,41 @@
+.container h3 {
+     font-family: cursive;
+     font-size: 25px;
+     color: purple;
+     text-shadow: 0 0 10px rgb(255, 41, 255),0 0 10px rgb(255, 41, 255);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+
+form input {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 6px 3px 6px 10px;
+    box-shadow: 1px 1px 5px black;
+    outline: none;
+}
+
+form label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form button {
+    width: 60px;
+    height: 30px;
+    padding: 1px;
+    background: #3bf934;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight:600;
+    transition: transform 0.5s ease-in-out;
+}
+form button:hover {
+    transform: scale(1.1);
+}

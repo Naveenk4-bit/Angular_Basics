@@ -1,0 +1,33 @@
+p {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.8s ease, transform 0.5s ease;
+}
+p:hover {
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 0 0 5px black;
+}
+.box {
+    
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 5px dashed #02d5ff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h4 {
+    position: relative;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    background: #02d5ff;
+
+}

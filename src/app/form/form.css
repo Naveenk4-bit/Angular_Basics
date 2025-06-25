@@ -1,0 +1,99 @@
+*{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border-radius: 10px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/img4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 500px;
+    background: transparent;
+    color: white;
+    border: 3px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0,0, 0, .2);
+    border-radius: 10px;
+    margin: 30px;
+    padding: 16px;
+}
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    color: rgb(255, 251, 0);
+     text-shadow: 0 0 5px rgb(255, 251, 0);
+    font-weight: 800;
+}
+
+.wrapper .group-name {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.group-name input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 15px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.group-name input::placeholder {
+  color: white;
+}
+
+.group-name i {
+    position: absolute;
+    right: 20px;
+    top:90%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper button {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.wrapper .login {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.wrapper label {
+    font-size: 20px;
+    font-weight: 600;
+}

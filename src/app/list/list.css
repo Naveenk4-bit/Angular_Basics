@@ -1,0 +1,21 @@
+ol li {
+    text-decoration: none;
+    font-family:sans-serif;
+    list-style-position: inside;
+    margin: 0;
+    padding: 5px;
+    font-weight: 600;
+    
+   
+    
+}
+ol {
+    border-radius: 10px;
+    border:1px solid black;
+    width: 300px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+

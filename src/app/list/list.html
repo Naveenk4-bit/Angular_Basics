@@ -1,0 +1,12 @@
+<div class="list">
+    <h3>Your Task</h3>
+    @if(lTasks.length > 0){
+    <ol>
+        <li *ngFor="let t of lTasks">{{t}}</li>
+    </ol>
+    }
+    @else {
+        <p> No Task available</p>
+    }
+    
+</div>
